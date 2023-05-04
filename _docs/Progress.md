@@ -18,9 +18,13 @@
 [x] 4.3. Rust Embedded terminology
 
 # 5. LED roulette
-[ ] 5.1. Build it
-[ ] 5.2. Flash it
+[x] 5.1. Build it
+[x] 5.2. Flash it
 [ ] 5.3. Debug it
+- WIP
+`
+Currently, gdb doesn't work on Apple Silicon. Looking into alternative options/ workaround
+`
 [ ] 5.4. Light it up
 [ ] 5.5. It blinks
 [ ] 5.6. The challenge
