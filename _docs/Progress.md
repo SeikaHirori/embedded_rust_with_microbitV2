@@ -7,15 +7,15 @@
 [x] 
  
 # 3. Setting up a development environment
-[ ] 3.1. Linux
-[ ] 3.2. Windows
+~~ [ ] 3.1. Linux ~~
+~~ [ ] 3.2. Windows ~~
 [x] 3.3. macOS
 [x] 3.4. Verify the installation
 
 # 4. Meet your hardware
-[ ] 4.1. micro:bit v2
-[ ] 4.2. micro:bit v1
-[ ] 4.3. Rust Embedded terminology
+[x] 4.1. micro:bit v2
+~~ [ ] 4.2. micro:bit v1 ~~
+[x] 4.3. Rust Embedded terminology
 
 # 5. LED roulette
 [ ] 5.1. Build it
