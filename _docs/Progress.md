@@ -22,6 +22,7 @@
 [x] 5.2. Flash it
 [ ] 5.3. Debug it
 - WIP
+    - Stopping at sample code: `(gdb) layout src`
 `
 Currently, gdb doesn't work on Apple Silicon. Looking into alternative options/ workaround
 `
