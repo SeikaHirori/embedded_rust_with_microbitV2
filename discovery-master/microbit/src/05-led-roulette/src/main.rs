@@ -3,6 +3,7 @@
 #![no_std]
 
 use cortex_m_rt::entry;
+use microbit::{display, display_pins};
 use rtt_target::{rtt_init_print, rprintln};
 use panic_rtt_target as _;
 use microbit::{board::Board, pac::TIMER0};
@@ -22,14 +23,25 @@ fn main() -> ! {
     board.display_pins.col1.set_low().unwrap();
     let mut row1 = board.display_pins.row1;
 
+    board.display_pins.col3.set_low().unwrap();
+    let mut row3 = board.display_pins.row3;
+
     loop {
         row1.set_low().unwrap();
+        
         rprintln!("
         DARK!");
-        timer.delay_ms(1000u16);
+        timer.delay_ms(3000u16);
 
         row1.set_high().unwrap();
         rprintln!("LIGHT!");
+        timer.delay_ms(1000u16);
+
+
+        row3.set_high().unwrap();
+        timer.delay_ms(2000u16);
+
+        row3.set_low().unwrap();
         timer.delay_ms(1000u16);
     }
 }
