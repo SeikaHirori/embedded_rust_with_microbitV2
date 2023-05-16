@@ -19,8 +19,17 @@ fn main() -> ! {
 
     let mut timer: Timer<TIMER0> = Timer::new(board.TIMER0);
 
+    board.display_pins.col1.set_low().unwrap();
+    let mut row1 = board.display_pins.row1;
+
     loop {
+        row1.set_low().unwrap();
+        rprintln!("
+        DARK!");
         timer.delay_ms(1000u16);
-        rprintln!("1000 ms passed!")
+
+        row1.set_high().unwrap();
+        rprintln!("LIGHT!");
+        timer.delay_ms(1000u16);
     }
 }
