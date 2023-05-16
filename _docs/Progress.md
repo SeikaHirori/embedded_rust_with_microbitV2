@@ -21,10 +21,10 @@
 [x] 5.1. Build it
 [x] 5.2. Flash it
 [x] 5.3. Debug it
-[ ] 5.4. Light it up
+[x] 5.4. Light it up
+[ ] 5.5. It blinks
 - WIP
 
-[ ] 5.5. It blinks
 [ ] 5.6. The challenge
 [ ] 5.7. My solution
 
