@@ -24,6 +24,7 @@
 [x] 5.4. Light it up
 [x] 5.5. It blinks
 [ ] 5.6. The challenge
+- wip
 [ ] 5.7. My solution
 
 # 6. Serial communication
